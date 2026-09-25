@@ -1,4 +1,4 @@
-// Online C compiler to run C program online
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -7,8 +7,8 @@ void swap(int *x,int *y);
 void Evaluate(int arr[],int target,int n);
 
 int main(){
-    int arr[50] = {0,-1,2,-3,1};
-    int target = -2;
+    int arr[50] = {10,20,30,40,50};
+    int target = 60;
     int n = 5;
 
     sort(arr,n);
@@ -48,8 +48,8 @@ void Evaluate(int arr[],int target,int n){
     while(left<right){
         sum = arr[left] +arr[right];
         if(sum== target){
-            printf("pair found");
-            printf("%d %d ",arr[left],arr[right]);
+            printf("Pair Found");
+            printf(" %d %d ",arr[left],arr[right]);
             break;
         }
         else
