@@ -48,7 +48,7 @@ void dequeue(){
 
 void traverse(){
     if(isEmpty()){
-        printf("Queue is Empty:");
+        printf("Queue is Empty:\n");
         return;
     }
     printf("Queue:");
