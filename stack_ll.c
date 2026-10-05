@@ -48,6 +48,14 @@ struct Node* pop(struct Node *top) {
     return top;
 }
 
+struct Node* peek(struct Node *top) {
+    if (isEmpty(top)) {
+        printf("Stack is Empty\n");
+        return NULL;  
+    }
+    return top;
+}
+
 void traverse(struct Node *top) {
     if (isEmpty(top)) {
         printf("Stack is Empty\n");
